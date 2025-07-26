@@ -15,7 +15,6 @@ build
 # === Gradle specific ===
 .gradle/
 /gradle/wrapper/gradle-wrapper.jar
-build.gradle
 gradle.properties
 !gradle/wrapper/gradle-wrapper.properties
 !gradle/libs.versions.toml
