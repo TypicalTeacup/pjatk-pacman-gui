@@ -1,0 +1,73 @@
+<synth>
+    <style id="default">
+        <font name="Verdana" size="16"/>
+        <state>
+            <color value="#24273a" type="BACKGROUND"/>
+            <color value="#cad3f5" type="FOREGROUND"/>
+        </state>
+    </style>
+    <bind style="default" type="region" key=".*"/>
+
+    <style id="button">
+        <font name="Verdana" size="16"/>
+        <state>
+            <color value="#8aadf4" type="BACKGROUND"/>
+            <color value="#24273a" type="FOREGROUND"/>
+            <insets top="4" left="8" right="8" bottom="4"/>
+
+            <opaque value="true"/>
+        </state>
+    </style>
+    <bind style="button" type="region" key="Button"/>
+
+    <style id="header">
+        <state>
+            <opaque value="true"/>
+            <color value="#1e2030" type="BACKGROUND"/>
+        </state>
+    </style>
+    <bind style="header" type="name" key="header"/>
+
+    <style id="popup">
+        <state>
+            <insets top="8" left="16" right="16" bottom="8"/>
+        </state>
+    </style>
+    <bind style="popup" type="region" key="OptionPane"/>
+
+    <style id="textField">
+        <state>
+            <color value="#1e2030" type="BACKGROUND"/>
+            <color value="#5b6078" type="TEXT_BACKGROUND"/>
+            <opaque value="true"/>
+        </state>
+    </style>
+    <bind style="textField" type="region" key="TextField"/>
+
+    <!--scrollbar-->
+    <style id="scrollbar">
+        <state>
+            <color type="BACKGROUND" value="#1e2030"/>
+            <opaque value="true"/>
+        </state>
+    </style>
+    <bind style="scrollbar" type="region" key="ScrollBar"/>
+
+    <style id="scrollbarThumb">
+        <state>
+            <color type="BACKGROUND" value="#494d64"/>
+            <opaque value="true"/>
+        </state>
+        <state value="MOUSE_OVER">
+            <color type="BACKGROUND" value="#5b6078"/>
+        </state>
+    </style>
+    <bind style="scrollbarThumb" type="region" key="ScrollBarThumb"/>
+
+    <style id="scrollbarTrack">
+        <state>
+            <opaque value="false"/>
+        </state>
+    </style>
+    <bind style="scrollbarTrack" type="region" key="ScrollBarTrack"/>
+</synth>

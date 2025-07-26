@@ -1,0 +1,43 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# === Build output ===
+/app/build/
+/app/bin/
+/build/
+
+# === Class files ===
+*.class
+
+# === Gradle specific ===
+.gradle/
+/gradle/wrapper/gradle-wrapper.jar
+build.gradle
+settings.gradle
+gradle.properties
+!gradle/wrapper/gradle-wrapper.properties
+!gradle/libs.versions.toml
+
+# === Logs and reports ===
+*.log
+*.tmp
+*.swp
+*.bak
+*.backup
+*.orig
+*.rej
+
+# === IDE specific ===
+.vscode/
+.idea/
+*.iml
+
+# === OS generated ===
+.DS_Store
+Thumbs.db
+
+# === Compiled resources with uniqueId (javac temp) ===
+*.class.*
